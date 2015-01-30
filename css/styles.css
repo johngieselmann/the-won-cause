@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#page_container{
+	width:960px;	
+	margin:auto;
+}
+.italics{
+	font-size:1em;
+	font-style:italic;
+}
+.clear{
+	clear:both;
+}
+/********************/
+/*	HEADER			*/
+/********************/
+
+#header_container h1{
+	display:inline;
+	position:absolute;
+	top:0px;
+	left:50%;
+	text-indent:-20000px;
+}
+#header_contaier p{
+	position:absolute;
+	top:0px;
+	left:50%;
+	width:200px;
+	z-index:-1;
+}
+
+#header_container p#description{
+	text-indent:-20000px;
+}
+/********************/
+/*	NAVIGATION		*/
+/********************/
+
+#nav_container{
+	height:30px;
+	background-color:#667291;
+}
+
+#nav{
+	width:480px;	
+	margin:auto;
+}
+
+#nav ul{
+	list-style-type:none;
+}
+
+#nav li{
+	float:left;
+	height:30px;
+	line-height:30px;
+}
+
+#nav li#home{
+	width:38px;
+}
+#nav li#about{
+	width:103px;
+	padding:0 71px 0 71px;
+}
+/*
+#nav li#social_media{
+	width:85px;	
+	padding:0 55px 0 0;
+}
+*/
+#nav li#updates{
+	width:52px;
+	padding:0 71px 0 0;
+}
+/*
+#nav li#related_links{
+	width:88px;
+}
+*/
+#nav li#appendices{
+	width:72px;
+}
+
+#nav a{
+	display:block;
+	height:30px;
+	text-decoration:none;
+	color:#FFF;
+}
+
+/********************/
+/*	SIDE CONTENT	*/
+/********************/
+
+#left_bar_container{
+	float:left;
+	width:200px;
+	padding:25px 20px 0 20px;
+}
+
+#right_bar_container{
+	float:right;
+	width:200px;
+	padding:25px 20px 0 20px;
+}
+
+#left_bar_container h3, #right_bar_container h3{
+	padding:10px 0 5px 0;
+}
+
+#left_bar_container p#related_material_cat, #right_bar_container p#more_links_cat{
+	font-weight:bold;
+}
+
+#left_bar_container p, #right_bar_container p{
+	padding:5px 0 10px 10px;
+	font-size:1.2em;
+}
+
+#left_bar_container p.link_info, #right_bar_container p.link_info{
+	padding:0 0 0 15px;
+	font-size:1.1em;
+	text-align:justify;
+	color:#666;
+}
+
+#left_bar_container p#related_material_cat, #right_bar_container p#more_links_cat{
+	font-weight:bold;
+}
+
+#left_bar_container p a, #right_bar_container p a{
+	color:#666;	
+	font-size:1em;
+}
+
+#left_bar_container p a:hover, #right_bar_container p a:hover{
+	color:#000;	
+}
+
+h3{
+	color:#7E664D;
+	font-size:1.8em;
+}
+
+#amazon_book p{
+	font-size:1.2em;	
+}
+
+/********************/
+/*	FOOTER			*/
+/********************/
+#footer_container{
+	height:30px;
+	line-height:30px;
+	background-color:#667291;
+}
+
+#footer_container p{
+	color:#FFF;
+	text-align:center;
+}
+

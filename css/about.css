@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/********************/
+/*	CENTER CONTENT	*/
+/********************/
+
+
+#about_container{
+	postion:relative;
+	top:-30px;
+	width:480px;
+	margin:auto;
+	padding:30px 0 20px 0;
+}
+
+#about_container h2{
+	font-size:1.4em;
+	color:#BB4340;
+	padding:0 0 5px 0;
+}
+
+#about_container a{
+	color:#666;	
+}
+
+#about_container p{
+	padding:0 0 8px 0;	
+	font-size:1.2em;
+	text-align:justify;
+}
+
+#about_container p.top, #about_container p.top a{
+	color:#667291;
+	text-align:right;
+}
+
+#about_container a:hover{
+	color:#000;	
+}

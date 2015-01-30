@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/********************/
+/*	CENTER CONTENT	*/
+/********************/
+
+#book_container{
+	position:relative;
+	top:-30px;
+	width:480px;
+	margin:auto;
+	text-align:center;
+}
+
+

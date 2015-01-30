@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/********************/
+/*	CENTER CONTENT	*/
+/********************/
+
+
+#appendices_container{
+	postion:relative;
+	top:-30px;
+	width:480px;
+	margin:auto;
+	padding:30px 0 20px 0;
+}
+
+#appendices_container h2{
+	font-size:1.4em;
+	color:#BB4340;
+	padding:0 0 5px 0;
+}
+
+#appendices_container a{
+	color:#666;	
+}
+
+#appendices_container p{
+	padding:0 0 8px 0;	
+	font-size:1.2em;
+	text-align:justify;
+}
+
+#appendices_container p.top, #appendices_container p.top a, #alpha_order a{
+	color:#667291;
+	text-align:right;
+}
+
+#appendices_container a:hover, #alpha_order a:hover{
+	color:#000;	
+}
+
+#alpha_order a{
+	padding:0 9px 0 0;
+}
+
+/*	TABLES	*/
+table{
+	color:#000;
+}
+
+thead{
+	border:none;
+}
+
+thead th{
+	font-size:1.2em;
+	font-weight:bold;
+	border-bottom:1px solid #666666;
+}
+
+th{
+	width:140px;
+}
+
+th#post_no{
+	width:60px;
+}
+
+tr.alpha_gap{
+	color:#000;
+	font-weight:bold;
+}
+
+
